@@ -58,7 +58,7 @@ Create Rule
 
 Endpoint: POST /api/rules/create_rule
 Request Body:
-{
+{ 
 "ruleString": "age > 30 AND department == Sales"
 }
 Response: The created rule with its AST.
